@@ -15,8 +15,6 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
-
-
 addons:
    hosts:
     - google.com
@@ -34,5 +32,5 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
 branches:
-  except:
-    - test-master   
+    except:
+     - master
