@@ -30,7 +30,7 @@ addons:
 # Running the tests with grunt
 script:
   - grunt
-
+build_image: shippable/minv2:beta
 
 # Tell istanbul to generate a coverage report
 after_script:
