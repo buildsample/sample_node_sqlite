@@ -29,7 +29,7 @@ describe("Persistence", function () {
       .end(function (e, res) {
         (e === null).should.equal(true);
         var response = res.body;
-        response.should.have.property("name", "dosbie");
+        response.should.have.property("name", "doobie");
         done();
       });
   });
