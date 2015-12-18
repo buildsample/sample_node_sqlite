@@ -19,7 +19,7 @@ before_script:
 
 archive: true
 
-build_image: drydock/u12nodall:tip
+build_image: drydock/u14nodall:tip
 
 addons:
    hosts:
